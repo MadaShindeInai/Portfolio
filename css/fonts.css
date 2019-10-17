@@ -22,21 +22,6 @@
   src: url("../assets/fonts/OpenSans/open-sans.woff2") format("woff2");
 }
 
-@font-face {
-  font-style: normal;
-  font-weight: 700;
-  font-family: "PT Sans Narrow";
-
-  src: url("../assets/fonts/PTSansNorrowBold/PTSans-NarrowBold.woff2") format("woff2");
-}
-
-@font-face {
-  font-style: normal;
-  font-weight: 400;
-  font-family: "PT Sans";
-
-  src: url("../assets/fonts/PTSansRegular/PTSans-Regular.woff2") format("woff2");
-}
 
 @font-face {
   font-style: normal;

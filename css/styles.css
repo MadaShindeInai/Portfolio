@@ -2,3 +2,134 @@
   margin: 0;
   padding: 0;
 }
+a {
+  font-family: "Segoe UI";
+  color: #ffffff;
+  text-decoration: none;
+}
+body {
+  background-color: #120e0f;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-family: "Segoe UI";
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+
+.inner {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  height: 50vh;
+  padding-top: 15px;
+  padding-right: 50px;
+  color: #ffffff;
+  background: url(../assets/images/DSC_0399.jpg);
+  background-repeat: no-repeat;
+}
+
+
+.link1,
+.link2,
+.link3 {
+  padding-top: 10px;
+  font-size: 1.5rem;
+  color: yellow;
+}
+.link2 {
+  color: skyblue;
+}
+.link3 {
+  color: rgba(73,137,220,0.95);
+}
+/* educatiion */
+.education {
+  background-color: #e6ebe5;
+}
+.dropdown-panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6ebe5;
+}
+h2 {
+  padding-right: 20px;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #000000;
+}
+.dropdown-button {
+  background-color: transparent;
+  border: 0;
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+.transform-none {
+  transform: rotate(0deg);
+}
+
+.dropdown-elem {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #e6ebe5;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.dropdown-elem__item {
+  margin: 20px 0;
+}
+
+.dropdown-elem__place {
+  font-weight: 700;
+  font-size: 1.6rem;
+  font-family: "Segoe UI";
+}
+.dropdown-elem__years {
+  font-weight: 500;
+  font-size: 1.4rem;
+  font-family: "Segoe UI";
+}
+/* projects */
+.projects h2 {
+  color: white;
+}
+
+
+
+
+
+
+@media (max-width: 500px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 50vh;
+    padding-right: 0;
+    padding-left: 15px;
+  }
+  h1 {
+    margin-bottom: 30px;
+    font-size: 1.9rem;
+  }
+}
