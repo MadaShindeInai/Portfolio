@@ -40,7 +40,9 @@ h6 {
   background: url(../assets/images/DSC_0399.jpg);
   background-repeat: no-repeat;
 }
-
+.project-link {
+  display: block;
+}
 
 .link1,
 .link2,
@@ -109,15 +111,171 @@ h2 {
   font-family: "Segoe UI";
 }
 /* projects */
+.projects {
+  position: relative;
+  color: white;
+}
 .projects h2 {
+  margin-top: 40px;
+  padding-bottom: 60px;
+  text-align: center;
   color: white;
 }
 
 
+/* CAROUSEL */
+.carousel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  text-align: left;
+  transform: translate(-50%,0);
+}
+.item {
+  position: relative;
+  display: none;
+  margin: 0 auto;
+  animation: 0.5s ease-in-out;
+}
+.carousel-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.active,
+.next {
+  display: block;
+}
+.next {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.item__description {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 20%;
+  font-size: 24px;
+  font-family: "Segoe UI";
+  border: 2px solid white;
+}
+.project-opportunities {
+  position: relative;
+  padding-top: 5%;
+}
+.project-name {
+  padding: 10px;
+  color: yellow;
+}
+.list {
+  padding: 10px;
+  list-style-type: none;
+}
+.list li {
+  padding: 10px;
+  color: yellow;
+}
+.go-to-click {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  padding: 10px;
+  color: yellow;
+}
+.control-right,
+.control-left {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 15%;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+.control-left {
+  right: auto;
+  left: 0;
+  outline: 0;
+}
+.control-right {
+  right: 0;
+  left: auto;
+  outline: 0;
+}
+.control-left img {
+  transform: rotate(-90deg);
+}
+.control-right img {
+  transform: rotate(90deg);
+}
+/* amination */
+.to-left {
+  animation-name: left ;
+}
+.to-right {
+  animation-name: right ;
+  animation-direction: reverse;
+}
+.from-left {
+  animation-name: left ;
+  animation-direction: reverse;
+}
+.from-right {
+  animation-name: right ;
+}
+@keyframes left {
+  from {
+    left: 0;
+  }
+  to {
+    left: -100%;
+  }
+}
+@keyframes right {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 0;
+  }
+}
 
+@media (max-width:1400px) {
+  .project-link img {
+    width: 495px;
+    height: 420px;
+  }
+}
+@media (max-width:1150px) {
+  .project-link img {
+    width: 330px;
+    height: 280px;
+  }
+}
+@media (max-width:970px) {
+  .item__description {
+    flex-direction: column;
+    align-items: center;
+  }
+  .go-to-click {
+    display: none;
+  }
+}
 
-
-
+@media (max-width:645px) {
+  .control-right,
+  .control-left {
+    display: none;
+  }
+  .item__description {
+    border: 0;
+  }
+  .project-opportunities {
+    display: none;
+  }
+}
 @media (max-width: 500px) {
   .header {
     display: flex;
