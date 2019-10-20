@@ -4,6 +4,15 @@ const classAddRemove = () => {
 }
 
 dropdownBtn.addEventListener('click', classAddRemove );
+//toggle description
+document.querySelector('.show-desk-repair').addEventListener('click', function(){
+  firstDesc.classList.toggle('d-block');
+  
+}); 
+document.querySelector('.show-desk-alow').addEventListener('click', function(){
+  secondDesc.classList.toggle('d-block');
+  
+}); 
 
 // carousellllll
 
