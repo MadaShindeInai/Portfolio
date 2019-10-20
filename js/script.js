@@ -4,15 +4,7 @@ const classAddRemove = () => {
 }
 
 dropdownBtn.addEventListener('click', classAddRemove );
-//toggle description
-document.querySelector('.show-desk-repair').addEventListener('click', function(){
-  firstDesc.classList.toggle('d-block');
-  
-}); 
-document.querySelector('.show-desk-alow').addEventListener('click', function(){
-  secondDesc.classList.toggle('d-block');
-  
-}); 
+
 
 // carousellllll
 
@@ -90,7 +82,7 @@ const swipeDetect = (el) => {
     startY = e.pageY;
     startTime = new Date().getTime();
     e.preventDefault();
-  }, false);
+  }, );
 
   surface.addEventListener('mouseup', function(e) {
     distX = e.pageX - startX;
@@ -110,9 +102,26 @@ const swipeDetect = (el) => {
         }
       }
     }
+    if(event.target.getAttribute('id') === 'repairlink' ||
+    event.target.getAttribute('id') === 'allowlink' ) {
+      if (distX === 0) {
+        let link = event.target.getAttribute('id') === 'repairlink' ? './projects/repairdesignfiller/index.html' : './projects/theyalowfiller/index.html';
+        document.location.href = link;
+      }
+    }
+    if(event.target.getAttribute('id') === 'showbutton1' ||
+    event.target.getAttribute('id') === 'showbutton2' ) {
+      if (distX === 0) {
+        if (event.target.getAttribute('id') === 'showbutton1'){
+          firstDesc.classList.toggle('d-block');
+        } else if (event.target.getAttribute('id') === 'showbutton2'){
+          secondDesc.classList.toggle('d-block');
+        }
+      }
+    }
 
     e.preventDefault();
-  }, false);
+  },);
 
   surface.addEventListener('touchstart', function(e) {
     if (e.target.classList.contains('control-left') || e.target.classList.contains('control-right') ||
@@ -135,11 +144,11 @@ const swipeDetect = (el) => {
     startY = touchObj.pageY;
     startTime = new Date().getTime();
     e.preventDefault();
-  }, false);
+  },);
 
   surface.addEventListener('touchmove', function(e) {
     e.preventDefault();
-  }, false);
+  },);
 
   surface.addEventListener('touchend', function(e) {
     var touchObj = e.changedTouches[0];
@@ -160,11 +169,40 @@ const swipeDetect = (el) => {
         }
       }
     }
+//fixing work of links
+
+    if(event.target.getAttribute('id') === 'repairlink' ||
+    event.target.getAttribute('id') === 'allowlink' ) {
+      if (distX === 0) {
+        let link = event.target.getAttribute('id') === 'repairlink' ? './projects/repairdesignfiller/index.html' : './projects/theyalowfiller/index.html';
+        document.location.href = link;
+      }
+    }
+    if(event.target.getAttribute('id') === 'showbutton1' ||
+    event.target.getAttribute('id') === 'showbutton2' ) {
+      if (distX === 0) {
+        if (event.target.getAttribute('id') === 'showbutton1'){
+          firstDesc.classList.toggle('d-block');
+        } else if (event.target.getAttribute('id') === 'showbutton2'){
+          secondDesc.classList.toggle('d-block');
+        }
+      }
+    }
 
     e.preventDefault();
-  }, false);
+  },);
   
 }
 var el = document.querySelector('.carousel');
 swipeDetect(el);
 // swiper end
+
+//toggle description
+document.querySelector('.show-desk-repair').addEventListener('click', function(){
+  firstDesc.classList.toggle('d-block');
+  
+}); 
+document.querySelector('.show-desk-alow').addEventListener('click', function(){
+  secondDesc.classList.toggle('d-block');
+  
+}); 

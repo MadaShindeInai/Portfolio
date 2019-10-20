@@ -1,9 +1,9 @@
 div {
-  width: 1450px;
+  width: 375px;
   margin: 0 auto;
 }
 iframe {
-  width: 1450px;
+  width: 375px;
   height: 100vh;
   background-color: white;
 }
@@ -13,12 +13,12 @@ body {
   background-color: grey;
 }
 
-.mobview {
-  width: 375px;
+.deskview {
+  width: 1450px;
 }
 
 .btn {
-  position: absolute;
+  position: fixed;
   top: 10px;
   right: 20px;
   width: 80px;
@@ -29,10 +29,10 @@ body {
   cursor: pointer;
 }
 .mobi {
-  display: block;
+  display: none;
 }
 .desktop {
-  display: none;
+  display: block;
 }
 
 .d-block {
