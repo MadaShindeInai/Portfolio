@@ -46,3 +46,11 @@ body {
 .back {
   top: 60px;
 }
+@media (max-width: 375px) {
+  .mobi {
+    display: none;
+  }
+  .desktop {
+    display: none;
+  }
+}
