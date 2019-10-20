@@ -1,0 +1,48 @@
+div {
+  width: 1450px;
+  margin: 0 auto;
+}
+iframe {
+  width: 1450px;
+  height: 100vh;
+  background-color: white;
+}
+
+body {
+  position: relative;
+  background-color: grey;
+}
+
+.mobview {
+  width: 375px;
+}
+
+.btn {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  width: 80px;
+  height: 40px;
+  font-weight: 600;
+  font-family: Arial, serif;
+  background-color: #e3b873;
+  cursor: pointer;
+}
+.mobi {
+  display: block;
+}
+.desktop {
+  display: none;
+}
+
+.d-block {
+  display: block;
+}
+.d-none {
+  display: none;
+}
+
+
+.back {
+  top: 60px;
+}

@@ -11,7 +11,6 @@ h3 {
 
 a {
   display: block;
-
   text-decoration: none;
 }
 
@@ -23,7 +22,6 @@ a {
 
 .wrapper-header {
   position: relative;
-
   background-image: url(../assets/images/HeaderBG.jpg);
   background-size: cover;
 }
@@ -31,13 +29,11 @@ a {
 .carousell-controls {
   position: absolute;
   top: 302px;
-
   box-sizing: border-box;
   width: 32px;
   height: 56px;
   padding-top: 19px;
   padding-left: 8px;
-
   background-color: #c7a60d;
 }
 
@@ -49,13 +45,11 @@ a {
   position: absolute;
   top: 302px;
   right: 0;
-
   box-sizing: border-box;
   width: 32px;
   height: 56px;
   padding-top: 19px;
   padding-left: 11px;
-
   background-color: #c7a60d;
 }
 
@@ -92,7 +86,6 @@ a {
   display: block;
   padding-top: 10px;
   padding-left: 4px;
-
   font-style: italic;
   font-size: 41px;
   font-family: "Lucida Sans", sans-serif;
@@ -114,10 +107,8 @@ a {
 
 .navbar__button:hover {
   z-index: 1;
-
   margin-right: 10px;
   margin-left: 10px;
-
   background-color: rgba(240, 255, 0, 1);
   box-shadow: -10px -14px 0 rgba(240, 255, 0, 0.37), -5px -7px 0 rgba(240, 255, 0, 0.37);
 }
@@ -132,7 +123,6 @@ a {
 
 .navbar__text {
   padding-left: 3px;
-
   font-size: 17px;
   line-height: 2.4;
   font-family: "Segoe WP", sans-serif;
@@ -166,7 +156,6 @@ a {
 
 .text-wrapper {
   margin: 0 auto 51px auto;
-
   text-align: center;
 }
 
@@ -272,7 +261,6 @@ a {
   padding-top: 32px;
   padding-bottom: 35px;
   padding-left: 3px;
-
   font-weight: 400;
   font-size: 37px;
   font-family: "PT Sans", sans-serif;
@@ -316,14 +304,12 @@ a {
 
 .double-block__text-block {
   width: 340px;
-
   background-color: #ec9e03;
 }
 
 .section2__svg-block {
   width: 330px;
   margin-right: 5px;
-
   background-color: #ec9e03;
 }
 
@@ -332,7 +318,6 @@ a {
   padding-top: 8px;
   padding-right: 19px;
   padding-bottom: 10px ;
-
   font-weight: 300;
   font-size: 25px;
   line-height: 38px;
@@ -344,19 +329,16 @@ a {
 
 .plus-position {
   margin-right: 14px;
-
   text-align: right;
 }
 
 .plus2-position {
   margin-right: 10px;
-
   text-align: right;
 }
 
 .svg-block_position {
   padding-bottom: 12px;
-
   text-align: center;
 }
 
@@ -367,7 +349,6 @@ a {
   padding-right: 27px;
   padding-bottom: 8px;
   padding-left: 32px;
-
   background-color: #ddb101;
 }
 
@@ -399,7 +380,6 @@ input[type="range"]::-ms-thumb {
   margin-top: 43px;
   margin-bottom: 21px;
   margin-left: 72px;
-
   background: #fae797;
   border-radius: 5px;
   outline: none;
@@ -411,7 +391,6 @@ input[type="range"]::-ms-thumb {
 .range::-webkit-slider-thumb {
   width: 197px;
   height: 16px;
-
   background-color: #ec9e03;
   border-radius: 10px;
   cursor: pointer;
@@ -435,7 +414,6 @@ input[type="range"]::-ms-thumb {
   margin-top: 43px;
   margin-bottom: 21px;
   margin-left: 72px;
-
   background: #fae797;
   border-radius: 5px;
   outline: none;
@@ -446,7 +424,6 @@ input[type="range"]::-ms-thumb {
 .range::-moz-range-thumb {
   width: 197px;
   height: 16px;
-
   background-color: #ec9e03;
   border: none;
   border-radius: 10px;
@@ -465,7 +442,6 @@ input[type="range"]::-ms-thumb {
 
 .wrapper-section3 {
   padding-bottom: 100px;
-
   background-image: url(../assets/images/bgsec3.png);
   border-bottom: 3px solid  rgba(0,0,0,0.2) ;
 }
@@ -473,7 +449,6 @@ input[type="range"]::-ms-thumb {
 .section3__text {
   padding-top: 40px;
   padding-bottom: 47px;
-
   font-weight: 400;
   font-size: 43px;
   font-family: "PT Sans", sans-serif;
@@ -489,21 +464,17 @@ input[type="range"]::-ms-thumb {
 .discont-circle {
   position: absolute;
   z-index: 2;
-
   width: 120px;
   height: 119px;
   margin-top: -38px;
   margin-left: -2px;
-
   text-align: center;
-
   background-color: #f5c506;
   border-radius: 50%;
 }
 
 .discont-circle__text {
   width: 120px;
-
   font-weight: 700;
   font-size: 19px;
   line-height: 6.4;
@@ -538,7 +509,6 @@ input[type="range"]::-ms-thumb {
   margin-right: 17px;
   padding-bottom: 23px;
   padding-left: 10px;
-
   font-weight: 400;
   font-size: 22px;
   font-family: "Open Sans", sans-serif;
@@ -563,7 +533,6 @@ input[type="range"]::-ms-thumb {
 
 .logo-footer__text {
   padding-left: 6px;
-
   font-style: italic;
   font-weight: 100;
   font-size: 29px;
@@ -594,7 +563,6 @@ input[type="range"]::-ms-thumb {
   padding-top: 58px;
   padding-bottom: 39px;
   padding-left: 9px;
-
   text-align: center;
 }
 
@@ -610,7 +578,6 @@ input[type="range"]::-ms-thumb {
 .tweets-block_tweets {
   margin-top: 25px;
   padding-left: 20px;
-
   list-style-type: none;
   font-size: 13px;
   font-family: "Arial", sans-serif;
@@ -627,9 +594,7 @@ input[type="range"]::-ms-thumb {
   content: "";
   position: absolute;
   bottom: 9px;
-
   height: 26px;
-
   transform: rotate(120deg);
 }
 
@@ -637,7 +602,6 @@ input[type="range"]::-ms-thumb {
 .tweets-block__second-tweet:before,
 .tweets-block__third-tweet:before {
   left: -15px;
-
   border-left: 20px solid #ffffff;
 }
 
@@ -645,9 +609,7 @@ input[type="range"]::-ms-thumb {
 .tweets-block__second-tweet:after,
 .tweets-block__third-tweet:after {
   left: 4px;
-
   width: 26px;
-
   background: #f5c507;
   border-bottom-right-radius: 16px;
   transform: translate(-30px, -5px);
@@ -663,36 +625,30 @@ input[type="range"]::-ms-thumb {
 
 .tweets-block__first-tweet {
   position: relative;
-
   box-sizing: border-box;
   width: 275px;
   margin-bottom: 14px;
   padding: 8px 0 6px 17px;
-
   background-color: #ffffff;
   border-radius: 10px;
 }
 
 .tweets-block__second-tweet {
   position: relative;
-
   box-sizing: border-box;
   width: 275px;
   margin-bottom: 14px;
   padding: 8px 0 6px 17px;
-
   background-color: #fceeb5;
   border-radius: 10px;
 }
 
 .tweets-block__third-tweet {
   position: relative;
-
   box-sizing: border-box;
   width: 275px;
   margin-bottom: 11px;
   padding: 8px 0 6px 17px;
-
   background-color: #fbe89c;
   border-radius: 10px;
 }
@@ -700,7 +656,6 @@ input[type="range"]::-ms-thumb {
 .field-tweet-msg {
   width: 200px ;
   height: 30px;
-
   border: 1px solid #d0a706;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
@@ -710,13 +665,11 @@ input[type="range"]::-ms-thumb {
 .submit-tweet-btn {
   width: 70px ;
   margin-left: -5px;
-
   font-size: 15px;
   line-height: 2;
   font-family: "Arial", sans-serif;
   color: #ffffff;
   letter-spacing: 0;
-
   background: linear-gradient(to top, #d2900e 20%, #dd9c1a 50%, #e9a725 80%);
   border: 1px solid #d0a706;
   border-top-right-radius: 10px;
@@ -763,29 +716,25 @@ input[type="range"]::-ms-thumb {
   .logo__text {
     padding-top: 7px;
     padding-left: 8px;
-
     font-size: 19px;
     letter-spacing: 0.08px;
   }
 
   .navbar__button {
     padding-top: 1px;
-
     box-shadow: none;
   }
 
   .navbar__button:hover {
     margin-right: 0;
     margin-left: 0;
-
     box-shadow: none;
   }
 
   .navbar__text {
     padding-left: 3px;
-
-    font-size: 19px;
-    line-height: 3.3;
+    font-size: 17px;
+    line-height: 3.7;
     text-align: center;
     color: #9b7d08;
   }
@@ -824,11 +773,11 @@ input[type="range"]::-ms-thumb {
   }
 
   .navbar__button_services-padding {
-    padding: 0 14px 0 8px;
+    padding: 0 17px 0 8px;
   }
 
   .navbar__button_contact-padding {
-    padding: 0 11px 0 11px;
+    padding: 0 17px 0 11px;
   }
 
   .logo_position {
@@ -898,7 +847,6 @@ input[type="range"]::-ms-thumb {
 
   .info-block__text_position_design-block {
     padding-top: 9px;
-
     text-align: left;
     letter-spacing: 0.2px;
   }
@@ -929,7 +877,7 @@ input[type="range"]::-ms-thumb {
   }
 
   .section2__double-block {
-    padding: 11px 10px 8px ;
+    padding: 11px 0 8px ;
   }
 
   .wrapper-section2 {
@@ -941,7 +889,6 @@ input[type="range"]::-ms-thumb {
     margin-right: 9px;
     padding-right: 33px;
     padding-left: 29px;
-
     background-color: #ec9e03;
   }
 
@@ -959,7 +906,6 @@ input[type="range"]::-ms-thumb {
     padding-top: 34px;
     padding-right: 11px;
     padding-bottom: 77px;
-
     font-size: 39px;
     font-family: "Open Sans", sans-serif;
     letter-spacing: 0.3px;
@@ -992,7 +938,6 @@ input[type="range"]::-ms-thumb {
 
   .logo-footer__text {
     padding-left: 10px;
-
     font-size: 17px;
   }
 }
