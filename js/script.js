@@ -158,3 +158,4 @@ const swipeDetect = (el) => {
 }
 var el = document.querySelector('.carousel');
 swipeDetect(el);
+// swiper end
